@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(R\ -\ Copy.jpeg);
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+}
+#sub-container{
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  height: 30vh;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ,5px 5px 15px rgba(0, 0, 0, 0.2);
+ height: 30vh;
+ background-color: rgba(22, 20, 20, 0.329);
+}
+.tt{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 40px;
+}
+#input{
+    height: 5vh;
+    margin-top: 20px;
+    outline: none;
+}
+#btns{
+    border: 0;
+    border-radius: 10px;
+    width: 40%;
+    height: 5vh;
+    background-color: rgb(244,114,155)
+}
+#demo{
+    color: white;
+}
